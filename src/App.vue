@@ -6,7 +6,7 @@
                     <router-link to="/home/article/hot">
                         <i class="fa fa-home"></i>
                         <span>首页</span>
-                    </router-link>
+                    </router-link> 
                 </li>
                 <li :class="{active: show === 'topic'}" @click="show = 'topic'" >
                     <router-link to="/topic/topic_article/hot">
