@@ -1,6 +1,6 @@
 # vue2.0-demo-jianshu
 
-> 用Vue2.0全家桶搭建的简书网站,这是一个前后端连通的整体网站,包括了数据库配置。前端采用Vue2.0,服务端采用Express框架
+> Jianshu website built with Vue2.0 family bucket, this is a whole website connected with front and back ends, including database configuration. Vue2.0 is used for the front end, and Express framework is used for the server
 
 ## Build Setup
 
@@ -17,27 +17,24 @@ npm run build
 
 ## tips
 
-- 数据库配置
+- Database configuration
 
-如果需要在本地跑通整个程序的话,需要在本地进行数据库的配置,配置信息写在dbUtil/dbConnection.js文件中,sql语句参照jianshu.sql文件
+If you need to run the entire program locally, you need to configure the database locally. The configuration information is written in the dbUtil/dbConnection.js file, and the sql statement refers to the jianshu.sql file
 
 - Vue2.0
 
- - Vue-Resource
+- Vue-Resource
 
- 发送http请求
+Send http request
 
- - Vuex
+- Vuex
 
- 数据存储
+Data storage
 
-- 服务端框架
+- Server framework
 
-使用Express,搭建server,使用NodeJS编写服务端代码
+Use Express to build a server and use NodeJS to write server code
 
-- 写文章
+- Write articles
 
-集成了富文本编辑器,方便写出精美文章
-
-
-
+Integrated rich text editor to facilitate writing beautiful articles
